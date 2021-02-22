@@ -5,6 +5,7 @@ import "./navbar/Navbar.css";
 import FormField from "./formfield/FormField";
 import CoolButton from "./coolbutton/CoolButton";
 import SignUp from "./signup/SignUp";
+import Message from "./message/Message";
 
 const App = () => {
   return (
@@ -16,22 +17,13 @@ const App = () => {
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
       />
-      <CoolButton is-small is-danger my-className > Button </CoolButton>
-      
+      <br/>
       <SignUp></SignUp>
+      <br/><br/><br/>
+      <Message className="message is-danger" title='Exercise finished' message="This exercise was performed by Matt Weber & Javi Sastre."/>
     </div>
   );
-
-    // <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-    // <CoolButton isSmall isSuccess>Button 2</CoolButton> */}
 };
 
 export default App;
 
-
-{/* <CoolButton className="button is-small is-danger is-rounded my-className"></CoolButton>
-
-
- CoolButton.js,
-
-<button className={props.className}>Button</button> */}
