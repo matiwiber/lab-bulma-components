@@ -3,7 +3,6 @@ import Navbar from "./../navbar/Navbar";
 import FormField from "./../formfield/FormField";
 import CoolButton from "./../coolbutton/CoolButton";
 
-
 function SignUp() {
     return (
         <div>
